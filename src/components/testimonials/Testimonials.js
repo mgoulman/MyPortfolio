@@ -46,19 +46,22 @@ const Testimonials = () => {
           dynamicBullets: true,
         }}
         modules={[Pagination]}
-        className="container testimonials_container"
       >
+        <div className="container testimonials_container">
         {data.map(({ avatar, name, review }, index) => {
           return (
-            <SwiperSlide key={index} className="testimonial">
+            <SwiperSlide key={index}>
+              <div className="testimonial">
               <div className="client_avatar">
                 <img src={avatar} alt={name} />
               </div>
               <h5 className="client_name">{name}</h5>
               <small className="client_review">{review}</small>
+              </div>
             </SwiperSlide>
           );
         })}
+        </div>
       </Swiper>
     </section>
   );
