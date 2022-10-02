@@ -26,21 +26,25 @@ const About = () => {
             <article className="about_card">
               <FiUsers className="about_icon" />
               <h5>Client</h5>
-              <small>10+ Worldwide</small>
+              <small>5+ as Freelance</small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+              <small>20+ Completed Projects</small>
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis aliquid quas id ratione temporibus pariatur nemo
-            voluptatem natus voluptates, quam, dolore fugiat quisquam recusandae
-            iure ab atque nulla voluptate aliquam!
+            My name is Mouad GOULMANE i'm a full stack web Developer based on
+            Morocco. i describe my self as a passionate developer who loves
+            coding, open source and the web platform. Aside my job, i like to
+            create and contribute to open source projects. That helps me to
+            learn a ton of new stuff, grow as a developer and support other open
+            source projects. Also i enjoy lerning how things work.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
